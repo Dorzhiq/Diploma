@@ -14,5 +14,6 @@ int main(int argc, char *argv[])
 {
     double W[10][10];
     std::cout<<dif2(1,1,1,fun,0.1,0.05,0.01)<<std::endl;
+    std::cout<<dif2(2,2,2,fun,0.1,0.05,0.01)<<std::endl;
 }
 
